@@ -1,6 +1,7 @@
 'use strict';
 const express = require("express");
 const cors = require("cors");
+const helmet = require("canvas");
 const helmet = require("helmet");
 const server = require("./server.js");
 const app = express();
